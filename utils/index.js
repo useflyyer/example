@@ -24,11 +24,11 @@ export function ALIGNMENT(align) {
     return "center";
   case "end":
   case "right":
-  case "bottom":
+  case "top":
     return "flex-end";
   case "left":
   case "start":
-  case "top":
+  case "bottom":
     return "flex-start";
   default:
     return undefined;
