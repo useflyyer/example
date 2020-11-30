@@ -915,10 +915,10 @@
     minimatch "^3.0.4"
     strip-json-comments "^3.1.1"
 
-"@flayyer/cli@^1.8.0":
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/@flayyer/cli/-/cli-1.8.0.tgz#56bda35dedd22a4eeab0dafb8677172c5ce64cdc"
-  integrity sha512-wQ/h35isGmwdd0H9Z8pzufY8nU9t9JeiKWIZkZY3xEfRULO2BFxBpNqIiBLy5nN/ieotIRB9NuVrk7+ua8/Yyg==
+"@flayyer/cli@^1.8.1":
+  version "1.8.1"
+  resolved "https://registry.yarnpkg.com/@flayyer/cli/-/cli-1.8.1.tgz#bd985cded3389f32bb1c343f6b38449265d04573"
+  integrity sha512-jUwO9b5V41UBcv831Hnyn/wzGsebj5NhOnRasQ4dboS0kvcoI4KLogOzzJa3KP8rNDUrVXZ7VHY3G13qRneQRg==
   dependencies:
     "@oclif/command" "^1.8.0"
     "@oclif/config" "^1.17.0"
@@ -936,6 +936,11 @@
     parcel-bundler "^1.12.4"
     qs "^6.9.4"
     tslib "^2.0.3"
+
+"@flayyer/flayyer-types@^1.0.0":
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/@flayyer/flayyer-types/-/flayyer-types-1.0.0.tgz#b12fd137f7a357213f9b1eacefee220ce2b8f7a4"
+  integrity sha512-wxo93Dq6U72I8Ax22g0qMyZVRc0p6oMNRy6FlCNthMEGthAwuqJtrjmgWes6zxN0/rbHKoyHo3TKvRey9du2Rg==
 
 "@iarna/toml@^2.2.0":
   version "2.2.5"
@@ -2715,10 +2720,10 @@ eslint-visitor-keys@^2.0.0:
   resolved "https://registry.yarnpkg.com/eslint-visitor-keys/-/eslint-visitor-keys-2.0.0.tgz#21fdc8fbcd9c795cc0321f0563702095751511a8"
   integrity sha512-QudtT6av5WXels9WjIM7qz1XD1cWGvX4gGXvp/zBn9nXG02D0utdU3Em2m/QjTnrsk6bBjmCygl3rmj118msQQ==
 
-eslint@^7.13.0:
-  version "7.13.0"
-  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.13.0.tgz#7f180126c0dcdef327bfb54b211d7802decc08da"
-  integrity sha512-uCORMuOO8tUzJmsdRtrvcGq5qposf7Rw0LwkTJkoDbOycVQtQjmnhZSuLQnozLE4TmAzlMVV45eCHmQ1OpDKUQ==
+eslint@^7.14.0:
+  version "7.14.0"
+  resolved "https://registry.yarnpkg.com/eslint/-/eslint-7.14.0.tgz#2d2cac1d28174c510a97b377f122a5507958e344"
+  integrity sha512-5YubdnPXrlrYAFCKybPuHIAH++PINe1pmKNc5wQRB9HSbqIK1ywAnntE3Wwua4giKu0bjligf1gLF6qxMGOYRA==
   dependencies:
     "@babel/code-frame" "^7.0.0"
     "@eslint/eslintrc" "^0.2.1"
